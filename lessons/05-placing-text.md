@@ -33,7 +33,7 @@ But first, let's finish our employee id badges.
 
 If you would like to start with code from the end of Lesson 4, check out the
 branch `04-composite-images` in your working environment. If you need to set
-up a fresh working environment, refer to [Lesson 1: Setup](../01-setup.md). 
+up a fresh working environment, refer to [Lesson 1: Setup](./01-source-assets.md). 
 
 Preview
 ---
