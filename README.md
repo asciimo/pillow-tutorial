@@ -7,6 +7,8 @@ image formats, filesystems, and have beginner to intermediate Python skills.
 
 Project: Create and print employee identification badges
 
+![Image of Samantha Jones' finished id badge](./lessons/images/sammie_joe_badge.png)
+
 The general purpose of this module is to instruct the student how to batch process
 a collection of image files using Python. Specifically, the student will use the
 Pillow imaging library to output annotated composite images from several source images.
@@ -49,9 +51,9 @@ This module was developed in a series of Git branches, each branch building on
 the previous. If you would like to see how the project is built following the
 lesson sequence, you may check out the branch associated with the lesson.
 
-**Only Lesson 5 ([05-placing-text](https://github.com/asciimo/pillow-tutorial/tree/05-placing-text))
-has complete lesson material.** Other branches contain notes or lesson summaries
-that illustrate the context of those lessons.
+**Only Lesson 5 ([05-placing-text](https://github.com/asciimo/pillow-tutorial/blob/05-placing-text/lessons/05-placing-text.md)) has complete lesson material.** Other branches contain notes or lesson summaries that illustrate the context of those lessons.
+
+The project code is in the `environment/` directory, and the lesson code is in the `lessons` directory. The `lessons/` directory content the same for each branch. Browsing the lessons in GitHub is the intended user experience.
 
 The lesson branches are:
 
@@ -70,6 +72,7 @@ Clone this repository.
 
 ```bash
 git clone git@github.com:asciimo/pillow-tutorial.git
+cd pillow-tutorial
 ```
 
 Check out the Lesson 4 branch
