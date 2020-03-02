@@ -39,7 +39,7 @@ Preview
 ---
 This is what our id badges look like so far: 
 
-[!Paul Donaldson's id badge at the start of lesson 5](./images/0003_donaldson_paul_lesson_04.png)
+![Paul Donaldson's id badge at the start of lesson 5](./images/0003_donaldson_paul_lesson_04.png)
 
 We have the photo perfectly placed, but we're missing the employee information
 such as the name, title, and id. In this lesson, we're going to draw the employee's
@@ -100,7 +100,7 @@ employee_badge.save("dist/%s" % output_filename)
 Run `badges.py` and look at the results. Open `dist/0001_jones_samantha.png` in an image
 processing program or your browser.
 
-[!Running badges.py to test our first text draw](./images/first_text_draw.png)
+![Running badges.py to test our first text draw](./images/first_text_draw.png)
 
 If you look closely, you should see "Samantha" printed in tiny text in the
 upper-left hand corner of the badge, exactly where we wanted it. The good news
@@ -153,7 +153,7 @@ If you run `badges.py` now and look at the resulting image, you'll see
 apparent that the coordinates for text drawing define the left-most origin of
 the text, not the center:
 
-[!Name is closer, but not quite](./images/name_off_center.png)
+![Name is closer, but not quite](./images/name_off_center.png)
 
 In order to correctly center this text and all that follow, we'll have to
 calculate the pixel width of the text, and then offset its origin accordingly to
@@ -186,7 +186,7 @@ draw.text(
 
 When you run `badges.py`, you'll see something like this:
 
-[!Terminal displaying width and height of each first name](./images/textwidth_output.png)
+![Terminal displaying width and height of each first name](./images/textwidth_output.png)
 
 Notice that the widths vary from name to name. This makes sense, as the
 names do not all have the same number of characters in them, so it takes a
@@ -228,7 +228,7 @@ employee_badge.save("dist/%s" % output_filename)
 Run `badges.py` and take a look at the results. The employee names should now be
 perfectly centered on the badges.
 
-[!Employee's name centered below the photograph](./images/name_centered.png)
+![Employee's name centered below the photograph](./images/name_centered.png)
 
 Reflection
 ---
