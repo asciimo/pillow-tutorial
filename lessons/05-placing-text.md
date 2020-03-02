@@ -207,7 +207,7 @@ another:
 
 `(employee_badge.width/2 - text_width/2), employee_badge.height/2)`
 
-Here's a [video that illustrates this calculation](https://photos.google.com/photo/AF1QipMQbBbQPWHq-jh5cb6hpsIMibEFEITqVd7nECo6).
+Here's a [video that illustrates this calculation](https://photos.google.com/share/AF1QipPxwLI9-7hKf2Y0j_BaGcz06RI6m7yqqQRLreifN5FcJHOw94DQmA0vpiYkwfuzhg/photo/AF1QipNqwNss-wHR4u16-uUGNASJRcr0OMyNiWr62ITl?key=N0lyTEg2RENqOUJxOFE0bFJoenhYVVJ3aElwVDln).
 
 Modify the text drawing code to incorprate this math. Update `main()` to
 look like this:
