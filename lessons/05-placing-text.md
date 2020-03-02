@@ -176,7 +176,7 @@ employee_name = employee.get("first_name")
 draw = ImageDraw.Draw(employee_badge)
 # Add these two lines to get and print the size of the name in pixels
 text_width, text_height = draw.textsize(employee_name)
-print(text_width, text)
+print(text_width, text_height)
 
 draw.text(
     (employee_badge.width/2, employee_badge.height/2),
@@ -217,6 +217,8 @@ employee_name = employee.get("first_name")
 
 draw = ImageDraw.Draw(employee_badge)
 text_width, text_height = draw.textsize(employee_name)
+
+# Update replace the position argument with the new calculation
 draw.text(
     ((employee_badge.width/2 - text_width/2), employee_badge.height/2),
     employee_name,
