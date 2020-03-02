@@ -1,4 +1,4 @@
-Lesson 05
+Lesson 05: Placing Text
 ===
 
 Introduction
