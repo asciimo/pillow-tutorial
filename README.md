@@ -65,14 +65,15 @@ Quick Start
 ===
 You can get up and running with Lesson 5 by following these steps:
 
-1. Clone this repository.
+Clone this repository.
 ---
 
 ```bash
 git clone git@github.com:asciimo/pillow-tutorial.git
 ```
 
-2. Check out the Lesson 4 branch
+Check out the Lesson 4 branch
+---
 
 This will start you with the project code at the end of Lesson 4. You can then
 follow the lesson content for [Lesson 5 on GitHub](https://github.com/asciimo/pillow-tutorial/tree/05-placing-text/lessons/05-placing-text.md). 
@@ -81,18 +82,21 @@ follow the lesson content for [Lesson 5 on GitHub](https://github.com/asciimo/pi
 git checkout 04-composite-images
 ```
 
-3. Enter the working environment
+Enter the working environment
+---
 
 ```bash
 cd environment
 ```
 
-4. Build the Docker image
+Build the Docker image
+---
 
 ```bash
 docker build . --build-arg uid=$UID -t asciimo/pillow-tutorial
 ```
-5. Run the Docker container
+Run the Docker container
+---
 
 ```bash
 docker run -v $(pwd):/pillow-tutorial --name pillow-tutorial -it asciimo/pillow-tutorial /bin/sh
