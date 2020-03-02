@@ -18,7 +18,7 @@ def main():
         output_filename = get_badge_filename(employee)
         employee_badge = template.copy()
         employee_photo = Image.open("src/%s" % employee.get("photo"))
-        employee_badge.paste(employee_photo, (185, 215))
+        employee_badge.paste(employee_photo, (185, 216))
         employee_badge.save("dist/%s" % output_filename)
 
 if __name__ == "__main__":
