@@ -49,17 +49,17 @@ This module was developed in a series of Git branches, each branch building on
 the previous. If you would like to see how the project is built following the
 lesson sequence, you may check out the branch associated with the lesson.
 
-Only Lesson 5 ([05-placing-text](https://github.com/asciimo/pillow-tutorial/tree/05-placing-text))
-has complete lesson material. Other branches contain notes or lesson summaries
+**Only Lesson 5 ([05-placing-text](https://github.com/asciimo/pillow-tutorial/tree/05-placing-text))
+has complete lesson material.** Other branches contain notes or lesson summaries
 that illustrate the context of those lessons.
 
 The lesson branches are:
 
 1. Setup [01-source-assets](https://github.com/asciimo/pillow-tutorial/tree/01-source-assets)
 2. Introduction to Pillow [02-load-badge](https://github.com/asciimo/pillow-tutorial/tree/02-load-badge)
-3. Mapping Employee Records to Image Files[03-parse-employees](https://github.com/asciimo/pillow-tutorial/tree/03-parse-employees)
-4. Compositing Images[04-composite-images](https://github.com/asciimo/pillow-tutorial/tree/04-composite-images)
-5. Placing Text[05-placing-text](https://github.com/asciimo/pillow-tutorial/tree/05-placing-text)
+3. Mapping Employee Records to Image Files [03-parse-employees](https://github.com/asciimo/pillow-tutorial/tree/03-parse-employees)
+4. Compositing Images [04-composite-images](https://github.com/asciimo/pillow-tutorial/tree/04-composite-images)
+5. Placing Text [05-placing-text](https://github.com/asciimo/pillow-tutorial/tree/05-placing-text)
 
 Quick Start
 ===
